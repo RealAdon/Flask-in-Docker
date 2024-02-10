@@ -73,3 +73,8 @@ class Deck:
 class Challenge:
     def __init__(self):
         self.name = 'The Challenge'
+    
+    def new_game(self):
+        # Create Deck
+        self.deck = Deck()
+        return True
